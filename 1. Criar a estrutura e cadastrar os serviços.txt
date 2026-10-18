@@ -1,0 +1,21 @@
+Crie um protótipo de sistema de orçamento para um prestador de serviços brasileiro.
+
+Implemente em um único arquivo index.html, com HTML, CSS e JavaScript internos. Não use bibliotecas, fontes externas, backend ou instalação de dependências. O arquivo deve abrir diretamente no navegador.
+
+Nesta primeira etapa, implemente apenas:
+- Título “Orçamento de Serviços”.
+- Formulário para descrição do serviço, quantidade e preço unitário.
+- Botão para adicionar o serviço.
+- Tabela com descrição, quantidade, preço unitário e subtotal.
+- Botão para remover cada serviço.
+- Estado vazio explicando como começar.
+
+Use interface em português do Brasil, valores em reais, campos com rótulos e layout legível no computador e no celular.
+
+A quantidade deve ser um número inteiro positivo. O preço deve ser maior ou igual a zero. Não permita descrição vazia nem valores inválidos. Mostre mensagens claras junto aos campos.
+
+Calcule os valores monetários em centavos inteiros para evitar erros de arredondamento.
+
+Não implemente ainda desconto, cliente, impressão ou salvamento. Vamos acrescentar essas funções nas próximas etapas.
+
+Se você tiver ferramentas para editar arquivos, crie o index.html no projeto. Se estiver apenas no chat, entregue o conteúdo completo do arquivo.

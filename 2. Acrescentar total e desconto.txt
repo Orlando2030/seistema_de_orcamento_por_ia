@@ -1,0 +1,19 @@
+Continue o sistema existente no index.html, preservando as funcionalidades que já funcionam.
+
+Acrescente um resumo financeiro com:
+- Subtotal de todos os serviços.
+- Campo de desconto percentual, de 0 a 100, aceitando até duas casas decimais.
+- Valor do desconto em reais.
+- Total final em reais.
+
+Use a regra:
+desconto em centavos = subtotal em centavos × percentual / 100, arredondado para o centavo mais próximo.
+total final = subtotal − desconto.
+
+Campo de desconto vazio deve representar zero. Valores fora do intervalo ou inválidos devem gerar uma mensagem clara. O total nunca pode ficar negativo.
+
+Atualize os resultados quando os serviços ou o desconto mudarem. Não acrescente taxas ou impostos.
+
+Confira este exemplo: 2 serviços de R$ 150,00 e 1 serviço de R$ 80,00 devem resultar em subtotal de R$ 380,00. Com desconto de 10%, o desconto deve ser R$ 38,00 e o total R$ 342,00.
+
+Implemente somente esta etapa. Ao terminar, descreva brevemente o que alterou e o que conseguiu verificar. Não afirme ter testado no navegador se não tiver realizado esse teste.

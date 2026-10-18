@@ -1,0 +1,16 @@
+Acrescente salvamento local ao orçamento existente usando localStorage, sem backend e sem serviços externos.
+
+Requisitos:
+- Salvar automaticamente cliente, data, observações, serviços e desconto após alterações válidas.
+- Restaurar o orçamento ao reabrir a página no mesmo navegador e na mesma origem.
+- Usar uma chave específica, como orcamento-servicos:v1.
+- Validar os dados recuperados antes de utilizá-los.
+- Recalcular subtotais e total a partir dos serviços e do desconto.
+- Se os dados estiverem corrompidos ou o armazenamento estiver indisponível, manter o sistema utilizável e mostrar um aviso claro.
+- Mostrar “Salvo neste navegador” apenas quando o salvamento realmente funcionar.
+- Acrescentar “Novo orçamento”, com confirmação antes de apagar o orçamento atual.
+- Apagar somente a chave deste aplicativo; nunca executar localStorage.clear().
+
+Explique na interface que os dados ficam neste navegador, não são backup e podem ser perdidos ao limpar os dados de navegação. Não prometa persistência garantida ao abrir por file://, pois esse comportamento pode variar entre navegadores.
+
+Preserve as funcionalidades anteriores. Não afirme que os dados foram salvos ou restaurados sem verificar o resultado.

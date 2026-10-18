@@ -1,0 +1,18 @@
+Acrescente ao sistema um botão “Imprimir orçamento”.
+
+O botão deve abrir a janela de impressão do navegador. Não gere PDF por biblioteca: o usuário poderá escolher “Salvar como PDF” na própria janela, quando essa opção estiver disponível.
+
+Crie um estilo específico de impressão para papel A4:
+- Fundo branco e texto escuro.
+- Ocultar botões, formulários de inclusão e controles de edição.
+- Mostrar título, data, dados preenchidos do cliente, observações, serviços, subtotal, desconto e total.
+- Ocultar campos opcionais vazios.
+- Evitar cortar uma linha de serviço entre duas páginas.
+- Repetir o cabeçalho da tabela quando ela ocupar mais de uma página.
+- Não limitar a impressão a uma única página.
+
+Antes de imprimir, exija nome do cliente preenchido, pelo menos um serviço e desconto válido.
+
+Inclua no documento a indicação “Orçamento demonstrativo”.
+
+Preserve todas as funções existentes. Informe quais verificações de impressão dependem de conferência visual no navegador.

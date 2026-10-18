@@ -1,0 +1,21 @@
+Continue o sistema existente sem remover as funcionalidades anteriores.
+
+Acrescente uma seção “Dados do cliente” com:
+- Nome ou empresa.
+- Telefone opcional.
+- E-mail opcional.
+- Observações opcionais.
+
+Inclua também a data do orçamento, preenchida inicialmente com a data local atual e editável.
+
+Adicione um botão “Preencher exemplo fictício”, que preencha:
+- Nome: Cliente Demonstração.
+- E-mail: cliente@example.com.
+- Telefone: deixe vazio.
+- Observações: Orçamento fictício para demonstração do sistema.
+
+Não peça CPF, endereço ou outros dados pessoais. Não envie informações para serviços externos.
+
+Exiba os textos inseridos pelo usuário como texto, sem interpretá-los como HTML.
+
+Implemente somente esta etapa e preserve os serviços e os cálculos.
